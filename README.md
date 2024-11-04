@@ -8,11 +8,6 @@ This project is a backend implementation for a Dropbox-like cloud storage applic
 - [Tech Stack](#tech-stack)
 - [Setup and Installation](#setup-and-installation)
 - [Environment Variables](#environment-variables)
-- [API Endpoints](#api-endpoints)
-  - [Authentication](#authentication)
-  - [File Management](#file-management)
-  - [Directory Management](#directory-management)
-  - [Sharing Management](#sharing-management)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
@@ -34,8 +29,34 @@ This project is a backend implementation for a Dropbox-like cloud storage applic
 
 ## Setup and Installation
 
-1. **Clone the Repository**
+ **Clone the Repository**
 
    ```bash
    git clone https://github.com/yourusername/repo-name.git
    cd repo-name
+   ```
+
+## Environment Variables
+- MONGODB_URI=your_mongodb_uri
+- AWS_ACCESS_KEY_ID=your_aws_access_key
+- AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+- AWS_S3_BUCKET_NAME=your_s3_bucket_name
+
+
+## Future Enhancements
+- Activity Logging: Track file and directory activities such as uploads, downloads, and edits.
+- Version Control: Store previous versions of files.
+- Collaborative Editing: Allow multiple users to collaborate on the same file.
+- WebSocket Integration: Enable real-time notifications for file sharing and collaboration.
+- User Roles & Permissions: Implement roles such as admin, editor, and viewer.
+
+## Contributing
+I welcome contributions! Please follow these steps:
+- Fork the project.
+- Create your feature branch (git checkout -b feature/YourFeature).
+- Commit your changes (git commit -m 'Add YourFeature').
+- Push to the branch (git push origin feature/YourFeature).
+- Open a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
