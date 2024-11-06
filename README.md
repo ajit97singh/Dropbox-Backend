@@ -18,7 +18,6 @@ This project is a backend implementation for a Dropbox-like cloud storage applic
 - **AWS S3 Integration**: Store files in AWS S3, utilizing its scalability and durability.
 - **MongoDB for Metadata**: Keep track of file and directory metadata, including names, timestamps, user ownership, and permissions.
 - **File and Directory Sharing**: Share files or entire directories with specific users at various permission levels (view, edit, etc.).
-- **User Authentication**: Secure API endpoints with user authentication for access control.
 
 ## Tech Stack
 
@@ -32,8 +31,8 @@ This project is a backend implementation for a Dropbox-like cloud storage applic
  **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/repo-name.git
-   cd repo-name
+   git clone https://github.com/ajit97singh/Dropbox-Backend.git
+   cd Dropbox-Backend
    ```
 
 ## Environment Variables
@@ -48,6 +47,7 @@ This project is a backend implementation for a Dropbox-like cloud storage applic
 - Version Control: Store previous versions of files.
 - Collaborative Editing: Allow multiple users to collaborate on the same file.
 - WebSocket Integration: Enable real-time notifications for file sharing and collaboration.
+- User Authentication: Secure API endpoints with user authentication for access control.
 - User Roles & Permissions: Implement roles such as admin, editor, and viewer.
 
 ## Contributing
